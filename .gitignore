@@ -1,0 +1,52 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Spring Boot
+application-local.yml
+application-dev.yml
+
+# Database
+*.h2.db
+*.db
+
+# Build
+build/
+.gradle/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node (if adding frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
